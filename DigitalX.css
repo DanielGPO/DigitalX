@@ -1,0 +1,474 @@
+body{
+    background: url(/spaceman.jpg);
+    background-position: -280% 10%;
+    background-size: cover;
+    object-fit: contain;
+    height: 800px;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    top: 0;
+    backdrop-filter:blur(10px);
+    background: rgba(36, 47, 63, 0.176);
+    box-shadow: 6px 0px 16px 8px rgba(31, 31, 31, 0); 
+    font-family: sans-serif;
+}
+nav h4{
+    font-size: 24px;
+    color: white;
+}
+span{
+    color: rgb(222, 240, 51);
+    font-size: 30px;
+}
+#nav_items_ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+#nav_items_ul li a{
+    padding: 10px;
+    font-size: 17px;
+    text-decoration: none;
+    padding-bottom: 40px;
+}
+#nav_items_ul li a:hover{
+    color: rgb(6, 244, 220);
+    cursor: pointer;
+    border-bottom: 1px solid  rgb(6, 244, 220);
+}
+#toggle{
+    color: white;
+    margin-left: 30px;
+    font-size: 27px;
+  
+}
+.nav_items_links{
+    color: white;
+}
+#homes{
+    color:  rgb(6, 244, 220);
+    border-bottom: 1px solid  rgb(6, 244, 220);
+}
+#toggle:hover{
+    color:  rgb(12, 88, 196);
+    cursor: pointer;
+}
+.landing_text{
+    position: relative;
+    margin-left: 60px;
+   width: 720px;
+   padding: 10px;
+   font-weight: 400;
+   z-index: 1;
+}
+
+strong{
+    letter-spacing: 2px;
+}
+.landing_text h1{
+    color: white;
+    margin-top: 120px;
+    font-size: 50px;
+    position: relative;
+    z-index: 10;
+    font-family: 'Montserrat', sans-serif;
+}
+.landing_text p{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    z-index: 9;
+    
+}
+#start_btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background:  rgb(222, 240, 51);
+    font-size: 20px;
+    font-family: sans-serif;
+    border: none;
+    position: relative;
+    z-index: 8;
+    box-shadow: 3px 0px 16px 5px rgba(144, 155, 21, 0.859); 
+}
+#start_btn:hover{
+    background:  rgb(24, 236, 215);
+    box-shadow: 3px 0px 16px 5px rgba(19, 199, 196, 0.859); 
+    cursor: pointer;    
+}
+
+
+
+
+
+
+
+
+#criar_account_page{
+    z-index: 12;
+    position: absolute;
+    background: linear-gradient(#000, rgb(16, 24, 30));
+    width: 410px;
+    border: 1px solid rgb(89, 219, 251);
+    height: 560px;
+    top: 0;
+    margin-left: 480px;
+    margin-top: 98px;
+    display: flex;
+    flex-direction: column;
+
+}
+#row_inputs{
+    display: flex;
+    flex-direction: row;
+}
+#começar_page{
+    z-index: 12;
+    position: absolute;
+    background: linear-gradient(#000, rgb(16, 24, 30));
+    width: 410px;
+    border: 1px solid white;
+    height: 400px;
+    top: 0;
+    margin-left: 480px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#forms_inputs_create,
+#forms_inputs{
+    flex-direction: column;
+    display: flex;
+    margin-left: 20px;
+}
+
+#create_h6,
+#começar_page h6{
+    font-size: 28px;
+    margin-left: 70px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.row_inputs_containers{
+    display: flex;
+    flex-direction: column;
+}
+
+.input_text_row{
+    width: 170px;
+    height: 40px;
+    font-size: 17px;
+    margin: 4px;
+    border-radius: 6px;
+    background: rgb(19, 24, 33);
+    color: white;
+    margin-left: 5px;
+}
+.input_text{
+    width: 270px;
+    height: 40px;
+    font-size: 20px;
+    margin: 4px;
+    border-radius: 6px;
+    background: rgb(19, 24, 33);
+    color: white;
+    margin-left: 50px;
+}
+#lembrar_label{
+    color: white;
+    margin-left: 50px;
+}
+#lembrar_checkbox{
+  margin-left: 110px;
+    position: absolute;
+    margin-top: 113px;
+    padding: 8px;
+}
+.buttons_in_log{
+    display: flex;
+    flex-direction: row;
+}
+.row-inputs{
+    color: white;
+    font-size: 17px;
+    left: 0;
+}
+.white_inputs{
+    color: white;
+    font-size: 17px;
+    margin-left: 50px;
+}
+#enviar_btn{
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 60px;
+    background:  rgb(222, 240, 51);
+    font-family: sans-serif;
+    border: none;
+    box-shadow: 3px 0px 16px 5px rgba(144, 155, 21, 0.859); 
+}
+
+#criar_btn2{
+    color: white;
+    margin-top: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 60px;
+    background:  rgb(24, 28, 25);
+    box-shadow: 3px 0px 16px 5px rgba(11, 11, 8, 0.859);
+    font-family: sans-serif;
+    border: none;
+}
+#criar_btn{
+    color: white;
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 60px;
+    background:  rgb(24, 28, 25);
+    box-shadow: 3px 0px 16px 5px rgba(11, 11, 8, 0.859);
+    font-family: sans-serif;
+    border: none;
+    
+}
+#criar_btn2:hover,
+#criar_btn:hover{
+    background:  rgb(37, 27, 54);
+    box-shadow: 3px 0px 16px 5px rgba(35, 112, 254, 0.859); 
+    cursor: pointer;
+}
+#enviar_btn:hover{
+    background:  rgb(24, 236, 215);
+    box-shadow: 3px 0px 16px 5px rgba(19, 199, 196, 0.859); 
+    cursor: pointer;    
+}
+.input_text_mensage{
+    height: 80px;
+    width: 200px;
+    margin: 4px;
+    font-size: 15px;
+    border-radius: 20px;
+    background: rgb(12, 42, 32);
+    color: white;
+}
+
+#exit_xx,
+#exit_x{
+    color: white;
+    top: 0;
+    position: absolute;
+    z-index: 20;
+    right: 0;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+#exit_xx:hover,
+#exit_x:hover{
+    cursor: pointer;
+}
+#overlay,
+#overlay2{
+display: none;
+background: rgba(0, 0, 0, 0.7);
+height: 143%;
+width: 100%;
+z-index: 30;
+position:absolute;
+top:0;
+left:0;
+content: "";
+}
+
+
+
+
+
+
+
+
+
+
+.aside_options{
+    background: rgb(12, 88, 196);
+    height: 600px;
+    width: 230px;
+    position: absolute;
+    z-index: 17;
+    top: 0;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-right: -260px;
+    border-radius: 10px;
+    animation: asideMove 0.6s linear ;
+    animation-fill-mode: forwards;
+}
+
+#first_btn{
+    margin-top: 40px;
+}
+.aside_options_buttons{
+    height: 46px;
+    background: rgb(12, 88, 196);
+    color: white;
+    border: none;
+    width: 200px;
+    margin-left: 15px;
+    font-size: 17px;
+}
+.aside_options_buttons:hover{
+    background: rgb(25, 69, 151);
+    cursor: pointer;
+}
+.wrapper{
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.15);
+    background: rgb(154, 178, 213);
+    width: 199px;
+    height: 30px;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 3;
+}
+.results ul li:hover{
+    background: rgb(59, 118, 136);
+    cursor: pointer;
+}
+.results ul li{
+    color: white;
+    list-style:none;
+    padding: 10px;
+    font-size: 15px;
+    background: #0099ff;
+    width: 170px;
+
+    
+}
+.results ul li:first-child{
+    margin-top: 33px;
+}
+#search{
+    position: absolute;
+    z-index: 6;
+    height: 30px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background: rgb(154, 178, 213) ;
+    color: white;
+    font-size: 20px;
+    width: 220px;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#logo_aside{
+    margin-left: 84px;
+    color: white;
+    font-size: 18px;
+}
+#assis_options{
+    color: white;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.user_icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.user_icon:hover{
+    cursor: pointer;
+    background: rgb(25, 69, 151) ;
+}
+.users_icons{
+    margin-left: 15px;
+    margin-right: 7px;
+    font-size: 17px;
+    color: white;
+}
+#log_in_icon{
+    color: white;
+    font-size: 17px;
+}
+#user_status{
+    margin-left: 86px;
+    font-size: 19px;
+    text-decoration: underline;
+}
+.aside_options_buttons:nth-child(4){
+    background: rgb(25, 69, 151) ;
+}
+
+.svg_box{
+    text-align: center;
+    background: #0099ff;
+    height: 200px;
+    width: 1341px;
+    padding: 0px;
+    position: absolute;
+    z-index: 7;
+    margin-top: 220px;
+    font-family: sans-serif
+}
+
+#svg_up{
+    position: absolute;
+    z-index: -1;
+    width: 1341px;
+}
+
+.svg_box h6{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    color: white;
+}
+.svg_box h2{
+    font-size: 26px;
+font-size: 2em;
+color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes asideMove{
+    0%{
+        transform: translateX(-30px);
+    }
+    25%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(-300px);
+    }
+
+}
